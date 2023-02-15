@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Ejercicio 3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilos/ej3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Botón pequeño-->
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#dialogo1">Alert</button>
+
+        <!--Botón grande-->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dialogo2">Modal
+            grande</button>
+
+
+
+
+
+        <div class="modal fade" id="dialogo1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- cabecera del diálogo -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">X</button>
+                    </div>
+
+                    <!-- cuerpo del diálogo -->
+                    <div class="modal-body">
+
+                        <!--Alert-->
+                        <div class="alert alert-secondary  alert-dismissible mt-5">
+                            <p>Te queda poco tiempo. Acaba pronto</p>
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span>x</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Modal grande con progressbar-->
+        <div class="modal fade" id="dialogo2">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- cabecera del diálogo -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">X</button>
+                    </div>
+
+                    <!-- cuerpo del diálogo -->
+                    <div class="modal-body">
+
+                        <!--Barra de progreso-->
+                        <div class="progress">
+                            <div class="progress-bar bg-info progress-bar-striped  progress-bar-animated"
+                                style="width:15%">Ej1</div>
+                            <div class="progress-bar bg-success progress-bar-striped  progress-bar-animated"
+                                style="width:60%">Ej2</div>
+                            <div class="progress-bar bg-warning progress-bar-striped  progress-bar-animated"
+                                style="width:15%">Ej3</div>
+                            <div class="progress-bar bg-danger progress-bar-striped  progress-bar-animated"
+                                style="width:10%">Ej4</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Paginación-->
+    <div class="container paginacion">
+        <p>
+
+            <!--Titulo con h3-->
+        <h3>David Campos Magro 2º DAW 09/02/2023</h3>
+
+        <!--Paginación-->
+        <div class="row paginacion">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="ejercicio2.html">
+                        < </a>
+                </li>
+                <li class="page-item "><a class="page-link" href="ejercicio1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="ejercicio2.html">2</a></li>
+                <li class="page-item active"><a class="page-link" href="ejercicio3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="ejercicio4.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="ejercicio4.html">></a></li>
+            </ul>
+        </div>
+        </p>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
